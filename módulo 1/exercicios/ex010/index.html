@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhando com links</title>
+</head>
+<body>
+
+</body>
+
+<!--
+  <a> = tag para âncorar um link
+  target = abri o link em uma nova aba em branco
+  rel = indica qual anatureza do destino do link
+  external = indica que e um link externo ao site
+  self = abri a página na aba atual
+  next = indica que o link leva a proxima página
+  prev = indica que o link leva a págin anterior
+  nofollow = indica que o site referente ao link não tem o seu aval
+  download = indica que o link aponta para um arquivo que pode ser baixado
+  Type = indica o tipo da extensão do arquivo a ser baixado 
+  (https://www.iana.org/assignments/media-types/media-types.xhtml) = lista de tipos de midias
+-->
+
+  <h1>Uzando links externos</h1>
+
+  <p>Você pode acessar o meu 
+  <a href="https://github.com/GustavoAbranches?tab=repositories" target="_blank" rel="external">perfil no Github.</a>
+  </p>
+
+  <h1>Usando links interno</h1>
+
+  <p>esta e a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" target="_self" rel="next">segunda página</a></p>
+
+  <p>Você também pode acessar <a href="noticias/pag003.html" target="_self" rel="next">nossa página de noticias</a> </p>
+
+  <h1>Links para download</h1>
+
+  <ul>
+    <li><a href="livro/10 - Ligações em toda parte.pdf" download="Meulivro.pdf" type="application/pdf">Baixar livro em PDF.</a></li>
+    <li><a href="livro/10 - Ligações em toda parte.zip" download="Meulivro.pdf" type="application/zip">Livro compactado em Zip.</a></li>
+  </ul>
+
+</body>
+</html>
